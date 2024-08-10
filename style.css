@@ -59,18 +59,4 @@ ul li {
   margin-bottom: 10px;
 }
 
-/* Video Section */
-#video-introduction iframe {
-  width: 100%;
-  height: auto;
-}
 
-/* Contact Information */
-#contact p a {
-  color: #333;
-  text-decoration: none;
-}
-
-#contact p a:hover {
-  color: #ff6347;
-}
