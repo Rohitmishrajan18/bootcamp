@@ -219,3 +219,76 @@ section h2 {
   background-color: #e5533d;
   cursor: pointer;
 }
+/* General Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Section Styling */
+section {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+/* Headings */
+section h2 {
+  color: #444;
+  border-bottom: 3px solid #007ACC;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Bio Paragraph */
+#bio p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Skills List */
+#skills ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#skills ul li {
+  background-color: #007ACC;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#skills ul li:hover {
+  background-color: #005F9E;
+  cursor: pointer;
+}
+
+/* Duplicate Sections */
+#bio:nth-of-type(2) {
+  background-color: #f0f0f0;
+}
+
+#bio:nth-of-type(2) h2 {
+  border-bottom-color: #FF6347;
+}
+
+#bio:nth-of-type(2) p {
+  color: #666;
+}
